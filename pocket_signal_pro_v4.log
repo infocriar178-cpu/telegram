@@ -1,0 +1,1223 @@
+2026-05-06 11:52:37,561 — INFO — pocket_ws — Pagina login: 200
+2026-05-06 11:52:37,941 — INFO — pocket_ws — Login: 200 -> https://pocketoption.com/pt/login/
+2026-05-06 11:52:37,942 — INFO — pocket_ws — Login OK! Cookies: ['po_uuid', 'lang']
+2026-05-06 11:52:37,952 — INFO — pocket_ws — SSID encontrado no cookie: po_uuid
+2026-05-06 11:52:42,536 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 11:52:44,232 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 5988 velas carregadas
+2026-05-06 11:52:44,786 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 11:52:45,420 — INFO — httpx — HTTP Request: POST https://api.telegram.org/botSEU_TOKEN_AQUI/getMe "HTTP/1.1 404 Not Found"
+2026-05-06 11:52:47,680 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 5987 velas carregadas
+2026-05-06 12:02:39,661 — INFO — pocket_ws — Pagina login: 200
+2026-05-06 12:02:40,026 — INFO — pocket_ws — Login: 200 -> https://pocketoption.com/pt/login/
+2026-05-06 12:02:40,027 — INFO — pocket_ws — Login OK! Cookies: ['po_uuid', 'lang']
+2026-05-06 12:02:40,028 — INFO — pocket_ws — SSID encontrado no cookie: po_uuid
+2026-05-06 12:02:44,586 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 5998 velas carregadas
+2026-05-06 12:02:45,425 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:02:46,764 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getMe "HTTP/1.1 200 OK"
+2026-05-06 12:02:47,081 — INFO — apscheduler.scheduler — Scheduler started
+2026-05-06 12:02:47,126 — INFO — telegram.ext.Application — Application started
+2026-05-06 12:02:47,568 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 5997 velas carregadas
+2026-05-06 12:02:47,577 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:02:47,823 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-06 12:02:48,592 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:02:49,601 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:02:51,051 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 5965 velas carregadas
+2026-05-06 12:02:53,300 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 2996 velas carregadas
+2026-05-06 12:02:56,469 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 5969 velas carregadas
+2026-05-06 12:02:57,393 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:02:58,256 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:02:58,727 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:02:59,813 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 5983 velas carregadas
+2026-05-06 12:03:02,221 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:03:03,737 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:03:03,758 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 5986 velas carregadas
+2026-05-06 12:03:04,765 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:03:05,658 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:05,695 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:03:06,444 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:03:07,706 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:03:09,971 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 5965 velas carregadas
+2026-05-06 12:03:13,000 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:13,168 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 5982 velas carregadas
+2026-05-06 12:03:13,933 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:03:14,266 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:03:15,448 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 2996 velas carregadas
+2026-05-06 12:03:15,449 — INFO — pocket_ws — Yahoo Finance: todos os ativos de mercado carregados!
+2026-05-06 12:03:16,122 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:16,403 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:03:26,389 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:27,143 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:03:27,537 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:03:27,552 — INFO — __main__ — Sinal v4: EUR/USD | NEUTRO | score=1/20 | TF=M1
+2026-05-06 12:03:36,932 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:45,419 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:46,342 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:03:46,646 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:03:48,341 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:48,622 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:03:48,927 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:03:51,069 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:03:51,332 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:03:58,299 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:03:58,606 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:03:58,615 — INFO — __main__ — Sinal v4: USD/JPY | PUT | score=-10/20 | TF=M1
+2026-05-06 12:04:01,336 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:04:02,248 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:04:03,609 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:04:06,618 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:04:07,819 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:04:10,823 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:04:11,586 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:04:12,184 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:04:15,194 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:04:16,658 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:04:19,671 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:04:21,097 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:04:22,024 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:04:22,116 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:04:22,161 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:04:25,169 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:04:26,500 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:04:27,521 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:04:27,601 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:04:30,605 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:04:32,350 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:04:40,781 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:04:41,972 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:04:42,623 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:04:42,984 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:04:43,938 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:04:52,906 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:02,457 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:05:03,209 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:03,541 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:05:04,552 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:05:05,460 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:05:13,586 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:23,839 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:34,097 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:40,305 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:41,135 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:05:41,439 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:05:43,362 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:43,654 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:05:43,952 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:05:53,700 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:54,022 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:05:54,947 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:06:02,758 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:06:03,655 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:06:04,005 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:06:04,015 — INFO — __main__ — Sinal v4: AUD/USD | CALL | score=4/20 | TF=AGUARDA
+2026-05-06 12:06:04,368 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:04,464 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:06:07,474 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:06:08,642 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:06:11,651 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:06:14,222 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:06:14,625 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:17,238 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:06:18,491 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:06:19,823 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:20,803 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:06:21,170 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:06:21,503 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:06:22,914 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:06:23,941 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:06:23,944 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:06:26,958 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:06:28,110 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:06:29,135 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:06:29,359 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:06:30,666 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:32,367 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:06:33,651 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:34,500 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:06:35,688 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:06:42,530 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:06:43,604 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:06:43,961 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:44,617 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:06:45,560 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:06:54,220 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:56,312 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:06:57,146 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:07:02,303 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:07:03,812 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:07:04,837 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:07:05,769 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:07:07,080 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:07:08,377 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:07:08,996 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:07:09,010 — INFO — __main__ — Sinal v4: AUD/USD | CALL | score=4/20 | TF=AGUARDA
+2026-05-06 12:07:18,138 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:07:28,508 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:07:33,650 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:07:34,765 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:07:35,483 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:07:38,183 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:07:38,471 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:07:38,775 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:07:41,727 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 668 velas carregadas
+2026-05-06 12:07:43,405 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 668 velas carregadas
+2026-05-06 12:07:45,822 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 668 velas carregadas
+2026-05-06 12:07:47,209 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 334 velas carregadas
+2026-05-06 12:07:48,469 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:07:49,241 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 668 velas carregadas
+2026-05-06 12:07:52,055 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 668 velas carregadas
+2026-05-06 12:07:53,768 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 668 velas carregadas
+2026-05-06 12:07:55,241 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 668 velas carregadas
+2026-05-06 12:07:56,868 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 668 velas carregadas
+2026-05-06 12:07:56,872 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:07:57,846 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:07:58,946 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 334 velas carregadas
+2026-05-06 12:08:02,466 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:08:03,949 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:08:06,970 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:08:07,201 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:08:09,205 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:08:09,242 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:08:09,566 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:08:09,576 — INFO — __main__ — Sinal v4: EUR/GBP | NEUTRO | score=2/20 | TF=M1
+2026-05-06 12:08:12,209 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:08:13,432 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:08:16,441 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:08:17,888 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:08:18,216 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:08:20,896 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:08:22,109 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:08:23,131 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:08:23,133 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:08:23,558 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:08:25,360 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:08:25,701 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:08:26,147 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:08:27,364 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:08:28,382 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:08:28,385 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:08:31,399 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:08:33,859 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:08:41,121 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:08:41,583 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:08:42,090 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:08:42,487 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:08:42,736 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:08:43,750 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:08:44,679 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:08:49,818 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:08:50,730 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:09:00,022 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:09:00,099 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:09:00,338 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:09:00,346 — INFO — __main__ — Sinal v4: EUR/JPY | PUT | score=-6/20 | TF=M1
+2026-05-06 12:09:02,330 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:09:03,730 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:09:04,749 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:09:05,692 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:09:10,387 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:09:20,588 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:09:30,838 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:09:41,083 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:09:51,361 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:10:01,616 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:10:02,288 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:10:03,606 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:10:06,622 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:10:07,997 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:10:11,014 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:10:11,888 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:10:12,603 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:10:15,617 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:10:16,841 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:10:19,855 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:10:21,062 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:10:22,085 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:10:22,087 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:10:22,154 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:10:25,114 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:10:26,228 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:10:27,263 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:10:27,318 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:10:30,336 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:10:32,467 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:10:40,446 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:10:41,605 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:10:42,611 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:10:42,723 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:10:43,531 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:10:53,025 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:11:02,462 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:11:03,285 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:11:03,535 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:11:04,549 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:11:05,496 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:11:13,528 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:11:23,801 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:11:34,059 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:11:44,315 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:11:54,613 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:12:02,384 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:12:03,644 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:12:05,138 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:12:06,659 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:12:07,874 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:12:10,879 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:12:12,325 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:12:15,334 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:12:15,371 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:12:17,547 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:12:20,563 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:12:21,804 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:12:22,840 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:12:22,841 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:12:25,607 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:12:25,851 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:12:27,012 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:12:28,026 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:12:28,028 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:12:31,044 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:12:35,867 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:12:41,225 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:12:42,418 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:12:43,441 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:12:44,377 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:12:46,128 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:12:56,389 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:13:00,978 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 673 velas carregadas
+2026-05-06 12:13:02,364 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:13:02,596 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 673 velas carregadas
+2026-05-06 12:13:03,595 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:13:04,274 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 673 velas carregadas
+2026-05-06 12:13:04,658 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:13:05,568 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 336 velas carregadas
+2026-05-06 12:13:05,747 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:13:06,634 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:13:07,238 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 674 velas carregadas
+2026-05-06 12:13:08,753 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 674 velas carregadas
+2026-05-06 12:13:10,355 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 674 velas carregadas
+2026-05-06 12:13:11,887 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 674 velas carregadas
+2026-05-06 12:13:13,217 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 674 velas carregadas
+2026-05-06 12:13:14,295 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 336 velas carregadas
+2026-05-06 12:13:16,892 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:13:27,174 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:13:37,450 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:13:47,721 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:13:57,969 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:14:02,370 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:14:03,575 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:14:06,596 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:14:08,062 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:14:08,254 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:14:11,074 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:14:12,347 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:14:13,677 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:14:14,882 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:14:16,888 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:14:17,896 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:14:18,991 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:14:20,014 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:14:20,016 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:14:23,028 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:14:24,141 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:14:25,168 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:14:25,204 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:14:27,169 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:14:28,724 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:14:37,432 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:14:38,867 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:14:39,911 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:14:40,924 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:14:41,992 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:14:48,006 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:14:58,613 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:15:00,709 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:15:01,820 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:15:02,842 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:15:03,776 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:15:08,873 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:15:19,124 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:15:29,396 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:15:39,643 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:15:49,915 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:16:00,169 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:16:00,725 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:16:01,938 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:16:04,946 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:16:06,228 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:16:09,236 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:16:10,439 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:16:10,444 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:16:13,458 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:16:14,709 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:16:17,727 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:16:18,989 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:16:20,017 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:16:20,018 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:16:20,680 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:16:23,034 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:16:24,293 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:16:25,324 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:16:25,327 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:16:28,333 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:16:30,920 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:16:38,439 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:16:39,668 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:16:40,678 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:16:41,182 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:16:41,613 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:16:51,427 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:17:00,836 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:17:01,682 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:17:01,968 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:17:02,993 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:17:03,909 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:17:11,958 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:17:22,208 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:17:32,519 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:17:42,755 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:17:53,012 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:18:00,752 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:18:02,076 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:18:03,218 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:18:05,086 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:18:06,554 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:18:09,564 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:18:10,804 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:18:13,461 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:18:13,824 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:18:13,833 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 678 velas carregadas
+2026-05-06 12:18:15,116 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 678 velas carregadas
+2026-05-06 12:18:15,344 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:18:16,312 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 679 velas carregadas
+2026-05-06 12:18:17,591 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 339 velas carregadas
+2026-05-06 12:18:18,355 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:18:19,487 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:18:20,321 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 679 velas carregadas
+2026-05-06 12:18:20,504 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:18:20,526 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:18:21,789 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 679 velas carregadas
+2026-05-06 12:18:23,222 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 679 velas carregadas
+2026-05-06 12:18:23,538 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:18:23,704 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:18:24,703 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 679 velas carregadas
+2026-05-06 12:18:24,882 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:18:25,911 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:18:26,131 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:18:26,513 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 679 velas carregadas
+2026-05-06 12:18:27,574 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 339 velas carregadas
+2026-05-06 12:18:29,146 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:18:34,623 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:18:39,402 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:18:40,807 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:18:41,814 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:18:42,754 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:18:44,864 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:18:55,097 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:19:00,794 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:19:02,087 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:19:03,095 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:19:04,033 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:19:05,357 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:19:16,202 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:19:26,464 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:19:36,696 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:19:47,395 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:19:57,652 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:20:00,796 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:20:02,088 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:20:05,101 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:20:06,270 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:20:07,897 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:20:09,386 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:20:10,917 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:20:13,928 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:20:15,454 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:20:18,461 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:20:18,472 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:20:19,584 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:20:20,601 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:20:21,267 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:20:24,281 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:20:25,414 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:20:26,422 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:20:26,425 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:20:28,847 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:20:29,449 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:20:39,096 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:20:39,547 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:20:40,652 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:20:41,668 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:20:42,594 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:20:49,900 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:21:00,162 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:21:00,836 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:21:01,923 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:21:02,949 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:21:03,900 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:21:08,319 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:21:09,229 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:21:09,546 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:21:18,773 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:21:29,032 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:21:39,325 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:21:49,589 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:21:59,830 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:22:00,951 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:22:02,269 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:22:05,284 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:22:06,482 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:22:09,497 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:22:10,108 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:22:10,777 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:22:13,792 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:22:14,975 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:22:17,983 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:22:19,319 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:22:20,343 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:22:20,350 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:22:20,378 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:22:23,367 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:22:24,502 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:22:25,528 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:22:25,918 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:22:28,932 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:22:30,662 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:22:39,087 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:22:40,052 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:22:40,951 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:22:41,082 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:22:42,026 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:22:51,320 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:00,869 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:23:01,600 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:02,006 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:23:03,024 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:23:03,939 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:23:05,689 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:06,523 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:23:06,820 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:23:15,922 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:16,395 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:17,497 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:23:26,654 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:26,976 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:23:27,295 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:23:27,314 — INFO — __main__ — Sinal v4: EUR/USD | NEUTRO | score=-2/20 | TF=M1
+2026-05-06 12:23:28,959 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 684 velas carregadas
+2026-05-06 12:23:31,304 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 684 velas carregadas
+2026-05-06 12:23:32,843 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 684 velas carregadas
+2026-05-06 12:23:34,067 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 342 velas carregadas
+2026-05-06 12:23:35,480 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 684 velas carregadas
+2026-05-06 12:23:37,036 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:37,398 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 684 velas carregadas
+2026-05-06 12:23:39,480 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 684 velas carregadas
+2026-05-06 12:23:41,265 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 684 velas carregadas
+2026-05-06 12:23:43,286 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 684 velas carregadas
+2026-05-06 12:23:44,736 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 342 velas carregadas
+2026-05-06 12:23:47,632 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:23:57,916 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:00,883 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:24:02,118 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:24:05,132 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:24:06,353 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:24:08,195 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:09,358 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:24:10,583 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:24:13,594 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:24:14,845 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:24:17,851 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:24:18,147 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:18,959 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:24:19,087 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:24:19,280 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:24:20,111 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:24:20,134 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:24:22,506 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:22,792 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:24:23,109 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:24:23,139 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:24:24,359 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:24:25,377 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:24:25,380 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:24:25,454 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:25,751 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:24:28,402 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:24:34,859 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:24:35,188 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:24:35,196 — INFO — __main__ — Sinal v4: EUR/JPY | NEUTRO | score=0/20 | TF=M1
+2026-05-06 12:24:35,779 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:38,546 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:24:39,576 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:24:40,590 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:24:41,521 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:24:46,043 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:56,299 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:59,148 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:24:59,957 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:25:00,245 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:25:00,945 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:25:02,071 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:25:03,096 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:25:04,039 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:25:09,479 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:25:10,245 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:25:11,149 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:25:11,444 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:25:15,378 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:25:15,641 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:25:25,664 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:25:25,994 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:25:26,324 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:25:26,337 — INFO — __main__ — Sinal v4: EUR/GBP | CALL | score=4/20 | TF=AGUARDA
+2026-05-06 12:25:35,908 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:25:46,195 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:25:56,440 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:26:00,246 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:26:00,917 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:26:01,164 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:26:01,463 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:26:02,237 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:26:05,614 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:26:07,136 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:26:10,148 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:26:10,539 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:26:11,734 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:26:14,745 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:26:15,942 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:26:18,945 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:26:20,293 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:26:20,835 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:26:21,323 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:26:21,325 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:26:24,341 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:26:25,491 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:26:26,514 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:26:26,515 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:26:29,520 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:26:31,144 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:26:39,665 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:26:40,688 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:26:41,405 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:26:41,714 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:26:42,642 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:26:51,701 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:00,935 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:27:01,952 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:02,282 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:27:03,300 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:27:04,240 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:27:12,208 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:18,077 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:18,884 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:27:19,172 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:27:28,343 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:38,621 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:48,900 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:49,593 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:27:50,625 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:28:00,090 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:00,367 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:28:00,683 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:28:00,696 — INFO — __main__ — Sinal v4: AUD/USD | NEUTRO | score=-2/20 | TF=M1
+2026-05-06 12:28:00,966 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:28:02,267 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:28:05,273 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:28:06,775 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:28:09,470 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:09,790 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:28:10,918 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:28:11,059 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:28:11,216 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:28:12,981 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:13,315 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:28:15,408 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:28:15,695 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:28:16,601 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:28:19,615 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:28:20,823 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:28:21,832 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:28:21,838 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:28:23,308 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:24,848 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:28:26,127 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:28:27,138 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:28:27,140 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:28:30,153 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:28:30,859 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:31,954 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:28:32,251 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:28:35,685 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:35,971 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:28:36,299 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:28:39,299 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:39,582 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:28:40,724 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:28:42,701 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:28:43,763 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:28:44,858 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:28:46,657 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 689 velas carregadas
+2026-05-06 12:28:48,753 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 689 velas carregadas
+2026-05-06 12:28:49,678 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:28:51,380 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:28:52,084 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 689 velas carregadas
+2026-05-06 12:28:53,164 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:28:53,348 — INFO — __main__ — Sinal v4: USD/JPY | CALL | score=6/20 | TF=M1
+2026-05-06 12:28:53,968 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 344 velas carregadas
+2026-05-06 12:28:55,476 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 689 velas carregadas
+2026-05-06 12:28:58,677 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 689 velas carregadas
+2026-05-06 12:29:00,779 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 689 velas carregadas
+2026-05-06 12:29:00,942 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:29:01,012 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:29:02,059 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 689 velas carregadas
+2026-05-06 12:29:02,078 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:29:03,116 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:29:03,389 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 690 velas carregadas
+2026-05-06 12:29:04,133 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:29:04,855 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 344 velas carregadas
+2026-05-06 12:29:11,234 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:29:21,474 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:29:31,735 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:29:42,010 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:29:52,280 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:00,425 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:30:01,998 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:30:02,592 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:05,007 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:30:06,173 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:30:09,185 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:30:10,407 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:30:12,856 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:13,418 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:30:14,566 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:30:15,344 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:16,276 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:30:16,600 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:30:17,575 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:30:18,676 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:18,856 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:30:18,973 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:30:19,259 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:30:19,922 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:30:19,925 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:30:21,838 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:22,135 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:30:22,946 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:30:24,648 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:30:25,884 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:30:25,892 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:30:28,943 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:30:31,583 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:30:31,920 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:30:31,933 — INFO — __main__ — Sinal v4: EUR/JPY | PUT | score=-7/20 | TF=M1
+2026-05-06 12:30:32,135 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:39,254 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:30:40,471 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:30:41,491 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:30:42,416 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:30:42,430 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:30:52,699 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:31:00,489 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:31:01,514 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:31:02,539 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:31:03,024 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:31:03,479 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:31:13,309 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:31:23,573 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:31:33,849 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:31:44,095 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:31:54,378 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:32:00,453 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:32:01,985 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:32:04,672 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:32:04,994 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 12:32:06,183 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:32:08,880 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:32:09,204 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:32:09,749 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:32:10,062 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:32:10,485 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:32:13,498 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 12:32:14,674 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 12:32:15,440 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:32:16,533 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:32:16,978 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 12:32:17,691 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:32:18,901 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:32:19,924 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:32:19,925 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:32:22,932 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 12:32:24,095 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:32:25,128 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:32:25,129 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 12:32:25,751 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:32:28,133 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 12:32:36,015 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:32:38,303 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:32:39,422 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:32:40,454 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:32:41,389 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:32:46,292 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:32:56,577 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:33:00,335 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:33:00,519 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 12:33:01,179 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 12:33:02,295 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 12:33:03,543 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 12:33:05,345 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 12:33:10,636 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:33:12,390 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 12:33:12,756 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 12:33:12,767 — INFO — __main__ — Sinal v4: EUR/USD | NEUTRO | score=-1/20 | TF=M1
+2026-05-06 12:33:21,735 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 12:33:32,621 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:06:08,006 — INFO — pocket_ws — Pagina login: 200
+2026-05-06 18:06:08,485 — INFO — pocket_ws — Login: 200 -> https://pocketoption.com/pt/login/
+2026-05-06 18:06:08,486 — INFO — pocket_ws — Login OK! Cookies: ['po_uuid', 'lang']
+2026-05-06 18:06:08,486 — INFO — pocket_ws — SSID encontrado no cookie: po_uuid
+2026-05-06 18:06:16,838 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:06:17,907 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 6361 velas carregadas
+2026-05-06 18:06:18,924 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getMe "HTTP/1.1 200 OK"
+2026-05-06 18:06:18,936 — INFO — apscheduler.scheduler — Scheduler started
+2026-05-06 18:06:18,938 — INFO — telegram.ext.Application — Application started
+2026-05-06 18:06:19,273 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-06 18:06:19,298 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:06:20,473 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:06:21,976 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:06:22,669 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 6360 velas carregadas
+2026-05-06 18:06:29,316 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 6329 velas carregadas
+2026-05-06 18:06:30,042 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:06:33,048 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 3178 velas carregadas
+2026-05-06 18:06:34,491 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:06:35,464 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:06:39,581 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 6333 velas carregadas
+2026-05-06 18:06:42,214 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:06:44,488 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 6347 velas carregadas
+2026-05-06 18:06:45,004 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:06:45,314 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:06:48,675 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:06:50,472 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:06:51,153 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 6350 velas carregadas
+2026-05-06 18:06:57,808 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 6328 velas carregadas
+2026-05-06 18:07:00,532 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:07:02,052 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:07:02,439 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 6345 velas carregadas
+2026-05-06 18:07:03,672 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:07:04,700 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:07:05,644 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:07:07,628 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 3178 velas carregadas
+2026-05-06 18:07:07,629 — INFO — pocket_ws — Yahoo Finance: todos os ativos de mercado carregados!
+2026-05-06 18:07:07,678 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:07:07,797 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 18:07:08,186 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:07:08,203 — INFO — __main__ — Sinal v4: EUR/USD | PUT | score=-7/20 | TF=M1
+2026-05-06 18:07:08,450 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:07:17,935 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:07:20,662 — ERROR — __main__ — Erro envio foto 8628570039: Timed out
+2026-05-06 18:07:23,492 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:07:23,502 — INFO — __main__ — Sinal v4: EUR/USD | PUT | score=-7/20 | TF=M1
+2026-05-06 18:07:29,589 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:07:39,853 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:07:50,105 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:08:44,574 — INFO — pocket_ws — Pagina login: 200
+2026-05-06 18:08:45,027 — INFO — pocket_ws — Login: 200 -> https://pocketoption.com/pt/login/
+2026-05-06 18:08:45,106 — INFO — pocket_ws — Login OK! Cookies: ['po_uuid', 'lang']
+2026-05-06 18:08:45,107 — INFO — pocket_ws — SSID encontrado no cookie: po_uuid
+2026-05-06 18:08:52,940 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:08:53,282 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 6364 velas carregadas
+2026-05-06 18:08:54,277 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getMe "HTTP/1.1 200 OK"
+2026-05-06 18:08:54,296 — INFO — apscheduler.scheduler — Scheduler started
+2026-05-06 18:08:54,298 — INFO — telegram.ext.Application — Application started
+2026-05-06 18:08:54,366 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:08:54,563 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-06 18:08:55,381 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:08:56,846 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:08:58,398 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 6363 velas carregadas
+2026-05-06 18:09:04,559 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 6331 velas carregadas
+2026-05-06 18:09:05,475 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:09:07,695 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 3179 velas carregadas
+2026-05-06 18:09:15,127 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 6336 velas carregadas
+2026-05-06 18:09:15,792 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:09:21,506 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 6350 velas carregadas
+2026-05-06 18:09:26,475 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 6353 velas carregadas
+2026-05-06 18:09:26,818 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:09:33,945 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 6331 velas carregadas
+2026-05-06 18:09:37,148 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:09:38,453 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 6348 velas carregadas
+2026-05-06 18:09:42,435 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:09:43,719 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 3180 velas carregadas
+2026-05-06 18:09:43,731 — INFO — pocket_ws — Yahoo Finance: todos os ativos de mercado carregados!
+2026-05-06 18:09:44,894 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:09:45,252 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:09:52,663 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:09:54,592 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:09:54,933 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:09:57,911 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:09:58,295 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:10:01,925 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:10:03,439 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:10:04,467 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:10:05,390 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:10:08,206 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:10:10,548 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendPhoto "HTTP/1.1 200 OK"
+2026-05-06 18:10:10,940 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:10:10,957 — INFO — __main__ — Sinal v4: EUR/JPY | NEUTRO | score=2/20 | TF=M1
+2026-05-06 18:10:18,773 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:10:29,821 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:10:40,104 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:10:50,405 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:10:50,666 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:10:51,570 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:10:52,633 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:10:53,766 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:10:54,065 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:10:56,108 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:11:01,619 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:11:02,827 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:11:03,420 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:11:03,806 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:11:04,217 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:11:06,437 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:11:07,699 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:11:09,067 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:11:09,342 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:11:09,681 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:11:10,726 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:11:12,479 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:11:15,495 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:11:16,686 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:11:19,382 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:11:19,720 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:11:22,462 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:11:23,469 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:11:23,602 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:11:24,000 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:11:25,098 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:11:26,617 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:11:28,809 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:11:29,917 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:11:30,117 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:11:33,131 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:11:34,316 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:11:37,849 — ERROR — __main__ — Erro envio foto 8628570039: Timed out
+2026-05-06 18:11:40,562 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:11:40,580 — INFO — __main__ — Sinal v4: USD/CAD | CALL | score=4/20 | TF=M1
+2026-05-06 18:11:43,720 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:11:45,277 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:11:45,367 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:11:46,293 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:11:47,236 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:11:55,688 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:12:01,826 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:12:03,642 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:12:04,674 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:12:05,626 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:12:05,984 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:12:16,266 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:12:26,550 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:12:36,832 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:12:47,095 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:12:57,425 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:13:01,628 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:13:02,893 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:13:05,897 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:13:07,161 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:13:07,389 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:13:08,229 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:13:08,556 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:13:10,177 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:13:10,586 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:13:10,930 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:13:11,269 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:13:11,527 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:13:14,537 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:13:17,169 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:13:20,175 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:13:20,887 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:13:21,639 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:13:22,648 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:13:22,783 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:13:25,791 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:13:27,397 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:13:28,426 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:13:28,561 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:13:31,155 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:13:31,565 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:13:41,458 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:13:41,893 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:13:43,373 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:13:44,378 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:13:45,300 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:13:47,840 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 1034 velas carregadas
+2026-05-06 18:13:49,601 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 1034 velas carregadas
+2026-05-06 18:13:51,832 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:13:51,856 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 1034 velas carregadas
+2026-05-06 18:13:53,331 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 517 velas carregadas
+2026-05-06 18:13:55,761 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 1034 velas carregadas
+2026-05-06 18:13:57,880 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 1034 velas carregadas
+2026-05-06 18:14:00,222 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 1034 velas carregadas
+2026-05-06 18:14:01,782 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:14:02,112 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 1034 velas carregadas
+2026-05-06 18:14:02,140 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:14:03,489 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:14:04,329 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 1034 velas carregadas
+2026-05-06 18:14:04,570 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:14:05,513 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:14:06,165 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 517 velas carregadas
+2026-05-06 18:14:12,398 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:14:23,193 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:14:28,179 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:14:29,106 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:14:38,516 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:14:41,389 — ERROR — __main__ — Erro envio foto 8628570039: Timed out
+2026-05-06 18:14:48,772 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:14:48,792 — INFO — __main__ — Sinal v4: USD/JPY | NEUTRO | score=0/20 | TF=M1
+2026-05-06 18:14:49,244 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:14:59,518 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:01,710 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:15:02,970 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:15:06,217 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:15:06,650 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:07,734 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:15:07,881 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:15:08,225 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 400 Bad Request"
+2026-05-06 18:15:08,990 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:15:10,746 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:15:12,028 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:15:14,230 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:15,031 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:15:17,486 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:15:17,798 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:15:19,951 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:15:22,953 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:15:24,499 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:15:24,519 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:25,528 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:15:25,558 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:15:28,574 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:15:30,276 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:15:31,299 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:15:31,501 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:15:34,507 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:15:34,806 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:44,667 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:15:45,061 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:46,147 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:15:47,184 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:15:48,125 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:15:55,416 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:57,738 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:15:59,518 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:15:59,858 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:16:01,749 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:16:02,403 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:16:02,785 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:16:03,163 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/editMessageText "HTTP/1.1 200 OK"
+2026-05-06 18:16:03,185 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:16:04,212 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:16:05,152 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:16:09,015 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:16:09,830 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-05-06 18:16:19,327 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:16:22,383 — ERROR — __main__ — Erro envio foto 8628570039: Timed out
+2026-05-06 18:16:23,492 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/sendMessage "HTTP/1.1 200 OK"
+2026-05-06 18:16:23,520 — INFO — __main__ — Sinal v4: USD/CAD | CALL | score=6/20 | TF=M1
+2026-05-06 18:16:29,934 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:16:40,208 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:16:50,472 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:17:00,711 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:17:01,849 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:17:03,197 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:17:06,204 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:17:07,526 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:17:10,535 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:17:10,998 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:17:13,047 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:17:16,061 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:17:17,385 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:17:20,394 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:17:21,272 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:17:21,925 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:17:22,949 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:17:23,119 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:17:26,125 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:17:27,594 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:17:28,665 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:17:28,785 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:17:31,543 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:17:31,807 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:17:42,039 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:17:42,050 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:17:43,927 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:17:44,938 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:17:45,878 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:17:52,330 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:18:01,725 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:18:02,621 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:18:03,014 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:18:04,023 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:18:04,958 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:18:12,885 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:18:23,164 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:18:33,432 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:18:43,677 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:18:54,421 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:19:01,734 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:19:04,617 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:19:04,697 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:19:07,643 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:19:07,801 — INFO — pocket_ws — Yahoo Finance: EURUSD=X — 1039 velas carregadas
+2026-05-06 18:19:09,271 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 1039 velas carregadas
+2026-05-06 18:19:10,338 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:19:11,210 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 1040 velas carregadas
+2026-05-06 18:19:13,350 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:19:14,970 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:19:16,618 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:19:17,193 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 520 velas carregadas
+2026-05-06 18:19:19,645 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:19:19,910 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 1040 velas carregadas
+2026-05-06 18:19:21,629 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:19:21,700 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 1040 velas carregadas
+2026-05-06 18:19:23,865 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 1040 velas carregadas
+2026-05-06 18:19:24,674 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:19:25,502 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 1040 velas carregadas
+2026-05-06 18:19:25,666 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:19:26,820 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:19:26,997 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 1040 velas carregadas
+2026-05-06 18:19:27,877 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:19:28,003 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:19:28,416 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 520 velas carregadas
+2026-05-06 18:19:31,011 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:19:32,492 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:19:33,513 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:19:33,566 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:19:35,928 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:19:36,568 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:19:46,173 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:19:46,671 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:19:49,349 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:19:50,372 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:19:51,285 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:19:57,596 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:20:02,020 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:20:03,461 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:20:04,492 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:20:05,438 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:20:07,947 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:20:18,198 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:20:29,012 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:20:39,275 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:20:49,553 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:20:59,816 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:21:01,865 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:21:03,389 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:21:06,395 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:21:07,653 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:21:10,075 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:21:10,655 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:21:11,829 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:21:14,837 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:21:16,079 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:21:19,093 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:21:20,333 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:21:20,521 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:21:21,544 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:21:22,153 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:21:25,167 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:21:26,705 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:21:27,713 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:21:27,975 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:21:30,616 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:21:30,992 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:21:40,890 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:21:41,124 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:21:42,833 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:21:43,858 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:21:44,797 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:21:51,194 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:22:01,455 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:22:02,095 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:22:03,689 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:22:04,710 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:22:05,636 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:22:11,751 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:22:22,027 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:22:32,305 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:22:42,625 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:22:52,885 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:23:01,380 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:23:02,717 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:23:03,185 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:23:05,721 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:23:07,348 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:23:10,356 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:23:11,772 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:23:13,517 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:23:14,784 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:23:16,316 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:23:19,337 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:23:20,896 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:23:21,912 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:23:22,179 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:23:23,784 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:23:25,198 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:23:26,754 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:23:27,767 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:23:27,824 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:23:30,839 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:23:34,071 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:23:40,961 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:23:42,322 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:23:43,340 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:23:44,285 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:23:44,318 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:23:54,624 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:24:01,399 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:24:03,142 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:24:04,161 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:24:04,956 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:24:05,090 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:24:15,234 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:24:25,540 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:25:06,692 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:25:07,133 — ERROR — yfinance — $EURUSD=X: possibly delisted; no price data found  (period=1d)
+2026-05-06 18:25:07,138 — ERROR — yfinance — 
+1 Failed download:
+2026-05-06 18:25:07,157 — ERROR — yfinance — ['EURUSD=X']: possibly delisted; no price data found  (period=1d)
+2026-05-06 18:25:07,214 — WARNING — pocket_ws — Yahoo Finance: sem dados para EURUSD=X
+2026-05-06 18:25:08,570 — INFO — pocket_ws — Yahoo Finance: GBPUSD=X — 1045 velas carregadas
+2026-05-06 18:25:11,993 — INFO — pocket_ws — Yahoo Finance: USDJPY=X — 1046 velas carregadas
+2026-05-06 18:25:13,763 — INFO — pocket_ws — Yahoo Finance: AUDUSD=X — 522 velas carregadas
+2026-05-06 18:25:15,300 — INFO — pocket_ws — Yahoo Finance: USDCAD=X — 1046 velas carregadas
+2026-05-06 18:25:17,040 — INFO — pocket_ws — Yahoo Finance: EURJPY=X — 1046 velas carregadas
+2026-05-06 18:25:17,042 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:25:18,749 — INFO — pocket_ws — Yahoo Finance: GBPJPY=X — 1046 velas carregadas
+2026-05-06 18:25:21,197 — INFO — pocket_ws — Yahoo Finance: USDCHF=X — 1046 velas carregadas
+2026-05-06 18:25:21,993 — WARNING — pocket_ws — Falhou wss://demo-api-eu.po.market/socket.io/: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2026-05-06 18:25:22,516 — INFO — pocket_ws — Yahoo Finance: EURGBP=X — 1046 velas carregadas
+2026-05-06 18:25:24,057 — INFO — pocket_ws — Yahoo Finance: NZDUSD=X — 523 velas carregadas
+2026-05-06 18:25:24,996 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:25:26,773 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:25:27,345 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:25:29,786 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-l.po.market/socket.io/...
+2026-05-06 18:25:31,053 — WARNING — pocket_ws — Falhou wss://api-l.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:25:34,064 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:25:35,383 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:25:38,164 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:25:38,390 — INFO — pocket_ws — A ligar ao WebSocket: wss://api.po.market/socket.io/...
+2026-05-06 18:25:40,850 — WARNING — pocket_ws — Falhou wss://api.po.market/socket.io/: server rejected WebSocket connection: HTTP 403
+2026-05-06 18:25:43,855 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:25:45,322 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:25:46,349 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:25:46,393 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:25:48,442 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:25:49,403 — INFO — pocket_ws — A ligar ao WebSocket: wss://api-eu.po.market/socket.io/...
+2026-05-06 18:25:50,903 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:25:51,920 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:25:52,022 — WARNING — pocket_ws — Falhou wss://api-eu.po.market/socket.io/: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2026-05-06 18:25:55,030 — INFO — pocket_ws — Reconectando em 10 segundos...
+2026-05-06 18:25:58,709 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"
+2026-05-06 18:26:05,093 — INFO — pocket_ws — A ligar ao WebSocket: wss://demo-api-eu.po.market/socket.io/...
+2026-05-06 18:26:06,613 — INFO — pocket_ws — WebSocket LIGADO! SSID=presente
+2026-05-06 18:26:07,625 — INFO — pocket_ws — Autenticacao enviada
+2026-05-06 18:26:08,632 — INFO — pocket_ws — Subscrito: 10 ativos OTC
+2026-05-06 18:26:08,971 — INFO — httpx — HTTP Request: POST https://api.telegram.org/bot8789789689:AAFKLjgHZAaXsyVuxJEXmSpIwdi2JFj3aLo/getUpdates "HTTP/1.1 200 OK"

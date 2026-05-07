@@ -1,0 +1,10 @@
+# POCKET SIGNAL PRO v4.0 — Dependências
+python-telegram-bot[job-queue]==21.6
+websockets>=12.0
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+pytz>=2024.1
+yfinance>=0.2.36
+matplotlib>=3.8.0
+mplfinance>=0.12.10b0

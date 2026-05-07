@@ -1,0 +1,4 @@
+{
+  "provider": "python",
+  "start": "python bot_pocket.py"
+}
