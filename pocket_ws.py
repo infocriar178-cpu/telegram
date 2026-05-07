@@ -1,9 +1,16 @@
 """
-╔══════════════════════════════════════════════════════════════╗
-║         POCKET SIGNAL PRO — pocket_ws.py  (CORRIGIDO)        ║
-║         Precos em tempo real via WebSocket                   ║
-║         OTC (Pocket) + Mercado Aberto (Yahoo Finance)        ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════╗
+║         POCKET SIGNAL PRO v5.0 — pocket_ws.py                       ║
+║         Precos em tempo real via WebSocket + Yahoo Finance           ║
+║                                                                      ║
+║  ATIVOS v5.0 (65+ pares):                                           ║
+║  • Forex Major / Minor / Exotico (20 pares)                         ║
+║  • Crypto (BTC, ETH, BNB, SOL, XRP, ADA, DOGE, LTC...)             ║
+║  • Acoes USA (AAPL, TSLA, AMZN, NVDA, MSFT, GOOGL, META...)        ║
+║  • Indices (S&P500, NASDAQ, DOW, DAX, FTSE, Nikkei...)              ║
+║  • Commodities (Ouro, Prata, Petroleo WTI/Brent, Gas Natural...)    ║
+║  • OTC Pocket Option (10 pares forex OTC)                           ║
+╚══════════════════════════════════════════════════════════════════════╝
 """
 
 import asyncio
@@ -24,39 +31,114 @@ logger       = logging.getLogger(__name__)
 TZ_CORRETORA = pytz.timezone("Africa/Luanda")  # GMT+1
 
 # ══════════════════════════════════════════════════════════════
-#  ATIVOS
-#  - OTC: dados da Pocket Option (WebSocket)
-#  - Mercado Aberto: dados do Yahoo Finance (real)
+#  FOREX MAJOR & MINOR
 # ══════════════════════════════════════════════════════════════
-ATIVOS_MERCADO = {
-    "EURUSD=X":  {"nome": "EUR/USD",  "tipo": "mercado", "emoji": "💱", "yahoo": "EURUSD=X"},
-    "GBPUSD=X":  {"nome": "GBP/USD",  "tipo": "mercado", "emoji": "💱", "yahoo": "GBPUSD=X"},
-    "USDJPY=X":  {"nome": "USD/JPY",  "tipo": "mercado", "emoji": "💱", "yahoo": "USDJPY=X"},
-    "AUDUSD=X":  {"nome": "AUD/USD",  "tipo": "mercado", "emoji": "💱", "yahoo": "AUDUSD=X"},
-    "USDCAD=X":  {"nome": "USD/CAD",  "tipo": "mercado", "emoji": "💱", "yahoo": "USDCAD=X"},
-    "EURJPY=X":  {"nome": "EUR/JPY",  "tipo": "mercado", "emoji": "💱", "yahoo": "EURJPY=X"},
-    "GBPJPY=X":  {"nome": "GBP/JPY",  "tipo": "mercado", "emoji": "💱", "yahoo": "GBPJPY=X"},
-    "USDCHF=X":  {"nome": "USD/CHF",  "tipo": "mercado", "emoji": "💱", "yahoo": "USDCHF=X"},
-    "EURGBP=X":  {"nome": "EUR/GBP",  "tipo": "mercado", "emoji": "💱", "yahoo": "EURGBP=X"},
-    "NZDUSD=X":  {"nome": "NZD/USD",  "tipo": "mercado", "emoji": "💱", "yahoo": "NZDUSD=X"},
+ATIVOS_FOREX = {
+    "EURUSD=X":  {"nome": "EUR/USD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "EURUSD=X"},
+    "GBPUSD=X":  {"nome": "GBP/USD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "GBPUSD=X"},
+    "USDJPY=X":  {"nome": "USD/JPY",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "USDJPY=X"},
+    "AUDUSD=X":  {"nome": "AUD/USD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "AUDUSD=X"},
+    "USDCAD=X":  {"nome": "USD/CAD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "USDCAD=X"},
+    "EURJPY=X":  {"nome": "EUR/JPY",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "EURJPY=X"},
+    "GBPJPY=X":  {"nome": "GBP/JPY",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "GBPJPY=X"},
+    "USDCHF=X":  {"nome": "USD/CHF",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "USDCHF=X"},
+    "EURGBP=X":  {"nome": "EUR/GBP",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "EURGBP=X"},
+    "NZDUSD=X":  {"nome": "NZD/USD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "NZDUSD=X"},
+    "AUDJPY=X":  {"nome": "AUD/JPY",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "AUDJPY=X"},
+    "CADJPY=X":  {"nome": "CAD/JPY",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "CADJPY=X"},
+    "CHFJPY=X":  {"nome": "CHF/JPY",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "CHFJPY=X"},
+    "EURAUD=X":  {"nome": "EUR/AUD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "EURAUD=X"},
+    "EURCAD=X":  {"nome": "EUR/CAD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "EURCAD=X"},
+    "GBPAUD=X":  {"nome": "GBP/AUD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "GBPAUD=X"},
+    "GBPCAD=X":  {"nome": "GBP/CAD",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "GBPCAD=X"},
+    "NZDJPY=X":  {"nome": "NZD/JPY",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "NZDJPY=X"},
+    "USDZAR=X":  {"nome": "USD/ZAR",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "USDZAR=X"},
+    "USDMXN=X":  {"nome": "USD/MXN",  "tipo": "mercado", "categoria": "forex", "emoji": "💱", "yahoo": "USDMXN=X"},
 }
 
+# ══════════════════════════════════════════════════════════════
+#  CRYPTO
+# ══════════════════════════════════════════════════════════════
+ATIVOS_CRYPTO = {
+    "BTC-USD":   {"nome": "BTC/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "₿",  "yahoo": "BTC-USD"},
+    "ETH-USD":   {"nome": "ETH/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "⟠",  "yahoo": "ETH-USD"},
+    "BNB-USD":   {"nome": "BNB/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "🔶", "yahoo": "BNB-USD"},
+    "SOL-USD":   {"nome": "SOL/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "◎",  "yahoo": "SOL-USD"},
+    "XRP-USD":   {"nome": "XRP/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "✕",  "yahoo": "XRP-USD"},
+    "ADA-USD":   {"nome": "ADA/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "🔵", "yahoo": "ADA-USD"},
+    "DOGE-USD":  {"nome": "DOGE/USD", "tipo": "mercado", "categoria": "crypto", "emoji": "🐕", "yahoo": "DOGE-USD"},
+    "LTC-USD":   {"nome": "LTC/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "Ł",  "yahoo": "LTC-USD"},
+    "AVAX-USD":  {"nome": "AVAX/USD", "tipo": "mercado", "categoria": "crypto", "emoji": "🔺", "yahoo": "AVAX-USD"},
+    "LINK-USD":  {"nome": "LINK/USD", "tipo": "mercado", "categoria": "crypto", "emoji": "🔗", "yahoo": "LINK-USD"},
+    "DOT-USD":   {"nome": "DOT/USD",  "tipo": "mercado", "categoria": "crypto", "emoji": "🟣", "yahoo": "DOT-USD"},
+    "MATIC-USD": {"nome": "MATIC/USD","tipo": "mercado", "categoria": "crypto", "emoji": "🔷", "yahoo": "MATIC-USD"},
+}
+
+# ══════════════════════════════════════════════════════════════
+#  ACOES USA (via Yahoo Finance)
+# ══════════════════════════════════════════════════════════════
+ATIVOS_ACOES = {
+    "AAPL":   {"nome": "Apple",      "tipo": "mercado", "categoria": "acoes", "emoji": "🍎", "yahoo": "AAPL"},
+    "TSLA":   {"nome": "Tesla",      "tipo": "mercado", "categoria": "acoes", "emoji": "🚗", "yahoo": "TSLA"},
+    "AMZN":   {"nome": "Amazon",     "tipo": "mercado", "categoria": "acoes", "emoji": "📦", "yahoo": "AMZN"},
+    "NVDA":   {"nome": "Nvidia",     "tipo": "mercado", "categoria": "acoes", "emoji": "🎮", "yahoo": "NVDA"},
+    "MSFT":   {"nome": "Microsoft",  "tipo": "mercado", "categoria": "acoes", "emoji": "🪟", "yahoo": "MSFT"},
+    "GOOGL":  {"nome": "Google",     "tipo": "mercado", "categoria": "acoes", "emoji": "🔍", "yahoo": "GOOGL"},
+    "META":   {"nome": "Meta",       "tipo": "mercado", "categoria": "acoes", "emoji": "👤", "yahoo": "META"},
+    "NFLX":   {"nome": "Netflix",    "tipo": "mercado", "categoria": "acoes", "emoji": "🎬", "yahoo": "NFLX"},
+    "COIN":   {"nome": "Coinbase",   "tipo": "mercado", "categoria": "acoes", "emoji": "🏦", "yahoo": "COIN"},
+    "BABA":   {"nome": "Alibaba",    "tipo": "mercado", "categoria": "acoes", "emoji": "🛒", "yahoo": "BABA"},
+}
+
+# ══════════════════════════════════════════════════════════════
+#  INDICES GLOBAIS
+# ══════════════════════════════════════════════════════════════
+ATIVOS_INDICES = {
+    "^GSPC":  {"nome": "S&P 500",      "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^GSPC"},
+    "^NDX":   {"nome": "NASDAQ 100",   "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^NDX"},
+    "^DJI":   {"nome": "Dow Jones",    "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^DJI"},
+    "^GDAXI": {"nome": "DAX 40",       "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^GDAXI"},
+    "^FTSE":  {"nome": "FTSE 100",     "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^FTSE"},
+    "^N225":  {"nome": "Nikkei 225",   "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^N225"},
+    "^IBEX":  {"nome": "IBEX 35",      "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^IBEX"},
+    "^CAC40": {"nome": "CAC 40",       "tipo": "mercado", "categoria": "indices", "emoji": "📊", "yahoo": "^FCHI"},
+}
+
+# ══════════════════════════════════════════════════════════════
+#  COMMODITIES
+# ══════════════════════════════════════════════════════════════
+ATIVOS_COMMODITIES = {
+    "GC=F":   {"nome": "Ouro (XAU)",   "tipo": "mercado", "categoria": "commodities", "emoji": "🥇", "yahoo": "GC=F"},
+    "SI=F":   {"nome": "Prata (XAG)",  "tipo": "mercado", "categoria": "commodities", "emoji": "🥈", "yahoo": "SI=F"},
+    "CL=F":   {"nome": "Petroleo WTI", "tipo": "mercado", "categoria": "commodities", "emoji": "🛢", "yahoo": "CL=F"},
+    "BZ=F":   {"nome": "Petroleo Brent","tipo": "mercado","categoria": "commodities", "emoji": "🛢", "yahoo": "BZ=F"},
+    "NG=F":   {"nome": "Gas Natural",  "tipo": "mercado", "categoria": "commodities", "emoji": "🔥", "yahoo": "NG=F"},
+    "HG=F":   {"nome": "Cobre",        "tipo": "mercado", "categoria": "commodities", "emoji": "🟤", "yahoo": "HG=F"},
+}
+
+# ══════════════════════════════════════════════════════════════
+#  OTC (Pocket Option WebSocket — mercado fechado)
+# ══════════════════════════════════════════════════════════════
 ATIVOS_OTC = {
-    "#EURUSD_otc":  {"nome": "EUR/USD OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#GBPUSD_otc":  {"nome": "GBP/USD OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#USDJPY_otc":  {"nome": "USD/JPY OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#AUDUSD_otc":  {"nome": "AUD/USD OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#USDCAD_otc":  {"nome": "USD/CAD OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#EURJPY_otc":  {"nome": "EUR/JPY OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#GBPJPY_otc":  {"nome": "GBP/JPY OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#EURGBP_otc":  {"nome": "EUR/GBP OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#NZDUSD_otc":  {"nome": "NZD/USD OTC",  "tipo": "otc", "emoji": "🌙"},
-    "#USDCHF_otc":  {"nome": "USD/CHF OTC",  "tipo": "otc", "emoji": "🌙"},
+    "#EURUSD_otc":  {"nome": "EUR/USD OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#GBPUSD_otc":  {"nome": "GBP/USD OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#USDJPY_otc":  {"nome": "USD/JPY OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#AUDUSD_otc":  {"nome": "AUD/USD OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#USDCAD_otc":  {"nome": "USD/CAD OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#EURJPY_otc":  {"nome": "EUR/JPY OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#GBPJPY_otc":  {"nome": "GBP/JPY OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#EURGBP_otc":  {"nome": "EUR/GBP OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#NZDUSD_otc":  {"nome": "NZD/USD OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
+    "#USDCHF_otc":  {"nome": "USD/CHF OTC",  "tipo": "otc", "categoria": "otc", "emoji": "🌙"},
 }
 
+# Mercado aberto = tudo exceto OTC
+ATIVOS_MERCADO = {**ATIVOS_FOREX, **ATIVOS_CRYPTO, **ATIVOS_ACOES, **ATIVOS_INDICES, **ATIVOS_COMMODITIES}
+
+# Todos juntos
 TODOS_ATIVOS = {**ATIVOS_MERCADO, **ATIVOS_OTC}
 
-# Buffers de preco
+# Buffers de preco (500 velas por ativo)
 price_buffers: dict = {k: deque(maxlen=500) for k in TODOS_ATIVOS}
 last_prices:   dict = {}
 
@@ -67,19 +149,27 @@ last_prices:   dict = {}
 def carregar_yahoo(ticker: str, ativo_key: str, periodo: str = "5d", intervalo: str = "1m"):
     """Carrega velas do Yahoo Finance para ativos de mercado aberto."""
     try:
-        df = yf.download(ticker, period=periodo, interval=intervalo,
+        # Crypto e indices precisam de periodos diferentes
+        _periodo   = periodo
+        _intervalo = intervalo
+
+        # Yahoo limita intervalos para periodos curtos
+        if intervalo == "1m" and periodo in ("5d",):
+            _periodo = "5d"
+
+        df = yf.download(ticker, period=_periodo, interval=_intervalo,
                          progress=False, auto_adjust=True)
         if df is None or df.empty:
             logger.warning(f"Yahoo Finance: sem dados para {ticker}")
             return
 
-        # Flatten colunas se necessario
+        # Flatten colunas se MultiIndex
         if isinstance(df.columns, pd.MultiIndex):
             df.columns = df.columns.get_level_values(0)
 
         df = df.dropna()
         for _, row in df.iterrows():
-            ts = int(row.name.timestamp()) if hasattr(row.name, 'timestamp') else int(time.time())
+            ts = int(row.name.timestamp()) if hasattr(row.name, "timestamp") else int(time.time())
             candle = {
                 "time":   ts,
                 "open":   float(row["Open"]),
@@ -92,37 +182,52 @@ def carregar_yahoo(ticker: str, ativo_key: str, periodo: str = "5d", intervalo: 
 
         last_row = df.iloc[-1]
         last_prices[ativo_key] = float(last_row["Close"])
-        logger.info(f"Yahoo Finance: {ticker} — {len(df)} velas carregadas")
+        logger.info(f"Yahoo Finance: {ticker} — {len(df)} velas OK")
 
     except Exception as e:
         logger.error(f"Erro Yahoo Finance {ticker}: {e}")
 
 
 def iniciar_yahoo_mercado():
-    """Carrega dados Yahoo Finance para todos os ativos de mercado aberto."""
+    """Carrega dados Yahoo Finance para todos os ativos de mercado aberto em background."""
     def _carregar_todos():
         for key, info in ATIVOS_MERCADO.items():
             ticker = info.get("yahoo", key)
-            carregar_yahoo(ticker, key)
-        logger.info("Yahoo Finance: todos os ativos de mercado carregados!")
+            # Crypto: periodo 7d, intervalo 5m para ter mais dados
+            if info.get("categoria") == "crypto":
+                carregar_yahoo(ticker, key, periodo="5d", intervalo="5m")
+            elif info.get("categoria") == "indices":
+                carregar_yahoo(ticker, key, periodo="5d", intervalo="5m")
+            elif info.get("categoria") in ("acoes",):
+                carregar_yahoo(ticker, key, periodo="5d", intervalo="5m")
+            elif info.get("categoria") == "commodities":
+                carregar_yahoo(ticker, key, periodo="5d", intervalo="5m")
+            else:
+                carregar_yahoo(ticker, key, periodo="5d", intervalo="1m")
+            time.sleep(0.3)  # respeitar rate limit Yahoo
+        logger.info(f"Yahoo Finance: {len(ATIVOS_MERCADO)} ativos carregados!")
 
     t = threading.Thread(target=_carregar_todos, daemon=True)
     t.start()
 
-    # Actualizar a cada 5 minutos em background
     def _loop_actualizacao():
         while True:
-            time.sleep(300)
+            time.sleep(300)  # actualizar a cada 5 minutos
             for key, info in ATIVOS_MERCADO.items():
                 ticker = info.get("yahoo", key)
-                carregar_yahoo(ticker, key, periodo="1d", intervalo="1m")
+                cat    = info.get("categoria", "forex")
+                if cat in ("crypto", "indices", "acoes", "commodities"):
+                    carregar_yahoo(ticker, key, periodo="1d", intervalo="5m")
+                else:
+                    carregar_yahoo(ticker, key, periodo="1d", intervalo="1m")
+                time.sleep(0.2)
 
     t2 = threading.Thread(target=_loop_actualizacao, daemon=True)
     t2.start()
 
 
 # ══════════════════════════════════════════════════════════════
-#  LOGIN
+#  LOGIN POCKET OPTION
 # ══════════════════════════════════════════════════════════════
 def fazer_login(email: str, password: str) -> dict:
     """Faz login na Pocket Option e retorna sessao com cookies."""
@@ -190,19 +295,16 @@ class PocketOptionWS:
         self.ws           = None
         self._stop        = False
         self._callbacks   = []
-        # CORRIGIDO: usar o cookie correto para SSID
         self._ssid        = self._extrair_ssid()
 
     def _extrair_ssid(self) -> str:
-        """Extrai o SSID correto dos cookies."""
         cookies = self.session_info.get("cookies", {})
-        # Ordem de prioridade correta para Pocket Option
         for chave in ("PHPSESSID", "ci_session", "ssid", "po_uuid", "session"):
             val = cookies.get(chave, "")
             if val:
-                logger.info(f"SSID encontrado no cookie: {chave}")
+                logger.info(f"SSID encontrado: {chave}")
                 return val
-        logger.warning("Nenhum SSID encontrado nos cookies!")
+        logger.warning("Nenhum SSID encontrado!")
         return ""
 
     def _build_urls(self) -> list:
@@ -224,7 +326,7 @@ class PocketOptionWS:
                 logger.error(f"Erro callback: {e}")
 
     def _headers(self):
-        cookies = self.session_info.get("cookies", {})
+        cookies    = self.session_info.get("cookies", {})
         cookie_str = "; ".join(f"{k}={v}" for k, v in cookies.items())
         return {
             "Origin":          "https://pocketoption.com",
@@ -245,33 +347,24 @@ class PocketOptionWS:
 
         for url in self._build_urls():
             try:
-                logger.info(f"A ligar ao WebSocket: {url.split('?')[0]}...")
+                logger.info(f"A ligar: {url.split('?')[0]}...")
                 headers = self._headers()
 
                 try:
                     ws_conn = websockets.connect(
-                        url,
-                        ssl=ssl_ctx,
-                        additional_headers=headers,
-                        ping_interval=20,
-                        ping_timeout=15,
-                        max_size=10_000_000,
-                        open_timeout=10,
+                        url, ssl=ssl_ctx, additional_headers=headers,
+                        ping_interval=20, ping_timeout=15,
+                        max_size=10_000_000, open_timeout=10,
                     )
                 except TypeError:
                     ws_conn = websockets.connect(
-                        url,
-                        ssl=ssl_ctx,
-                        extra_headers=headers,
-                        ping_interval=20,
-                        ping_timeout=15,
-                        max_size=10_000_000,
+                        url, ssl=ssl_ctx, extra_headers=headers,
+                        ping_interval=20, ping_timeout=15, max_size=10_000_000,
                     )
 
                 async with ws_conn as ws:
-                    self.ws        = ws
-                    self.connected = True
-                    logger.info(f"WebSocket LIGADO! SSID={'presente' if self._ssid else 'ausente'}")
+                    self.ws = ws; self.connected = True
+                    logger.info(f"WebSocket LIGADO!")
 
                     try:
                         abertura = await asyncio.wait_for(ws.recv(), timeout=8)
@@ -286,9 +379,7 @@ class PocketOptionWS:
                         auth = json.dumps(["auth", {"session": self._ssid, "isDemo": 1, "uid": 0}])
                         await ws.send(f"42{auth}")
                         await asyncio.sleep(0.5)
-                        logger.info("Autenticacao enviada")
 
-                    # Subscrever apenas OTC
                     await self._subscrever_otc(ws)
 
                     async for msg in ws:
@@ -302,36 +393,27 @@ class PocketOptionWS:
                 await asyncio.sleep(3)
 
     async def _subscrever_otc(self, ws):
-        """Subscreve apenas ativos OTC."""
         count = 0
         for ativo in ATIVOS_OTC:
-            payload = json.dumps(["subfor", json.dumps({
-                "asset":  ativo,
-                "period": 60,
-            })])
+            payload = json.dumps(["subfor", json.dumps({"asset": ativo, "period": 60})])
             await ws.send(f"42{payload}")
             await asyncio.sleep(0.08)
             count += 1
-        logger.info(f"Subscrito: {count} ativos OTC")
+        logger.info(f"OTC subscrito: {count} ativos")
 
     async def _processar(self, ws, msg: str):
         try:
             if msg == "2":
-                await ws.send("3")
-                return
+                await ws.send("3"); return
             if not msg.startswith("42"):
                 return
-
             dados = json.loads(msg[2:])
             if not isinstance(dados, list) or len(dados) < 2:
                 return
-
             evento, payload = dados[0], dados[1]
-
             if evento in ("candle", "quote", "price", "tick", "updateStream",
                           "candles", "successcloseorder", "successopenorder"):
                 self._guardar(payload)
-
         except Exception:
             pass
 
@@ -344,16 +426,10 @@ class PocketOptionWS:
             if not isinstance(payload, dict):
                 return
 
-            ativo = (
-                payload.get("asset") or
-                payload.get("symbol") or
-                payload.get("pair") or ""
-            )
+            ativo = (payload.get("asset") or payload.get("symbol") or payload.get("pair") or "")
             preco = float(
-                payload.get("close") or
-                payload.get("price") or
-                payload.get("value") or
-                payload.get("ask") or 0
+                payload.get("close") or payload.get("price") or
+                payload.get("value") or payload.get("ask") or 0
             )
             ts = int(payload.get("time") or payload.get("timestamp") or time.time())
 
@@ -373,7 +449,7 @@ class PocketOptionWS:
                 self._notificar(ativo, preco, ts)
 
         except Exception as e:
-            logger.debug(f"Erro guardar preco: {e}")
+            logger.debug(f"Erro guardar: {e}")
 
     async def desligar(self):
         self._stop = True
@@ -391,7 +467,7 @@ class PocketOptionWS:
             except Exception as e:
                 logger.error(f"Erro ligacao: {e}")
             if not self._stop:
-                logger.info("Reconectando em 10 segundos...")
+                logger.info("Reconectando em 10s...")
                 await asyncio.sleep(10)
 
 
@@ -410,5 +486,13 @@ def ativos_prontos(minimo: int = 30) -> dict:
         if len(price_buffers.get(k, [])) >= minimo
     }
 
+def ativos_prontos_por_categoria(categoria: str, minimo: int = 30) -> dict:
+    """Retorna ativos prontos de uma categoria especifica."""
+    return {
+        k: v for k, v in TODOS_ATIVOS.items()
+        if v.get("categoria") == categoria and len(price_buffers.get(k, [])) >= minimo
+    }
+
 def hora_corretora() -> str:
     return datetime.now(TZ_CORRETORA).strftime("%d/%m/%Y %H:%M:%S")
+ow(TZ_CORRETORA).strftime("%d/%m/%Y %H:%M:%S")
