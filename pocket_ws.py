@@ -495,4 +495,4 @@ def ativos_prontos_por_categoria(categoria: str, minimo: int = 30) -> dict:
 
 def hora_corretora() -> str:
     return datetime.now(TZ_CORRETORA).strftime("%d/%m/%Y %H:%M:%S")
-ow(TZ_CORRETORA).strftime("%d/%m/%Y %H:%M:%S")
+return datetime.now(TZ_CORRETORA).strftime("%d/%m/%Y %H:%M:%S")
